@@ -13,8 +13,6 @@ import static java.util.stream.Collectors.toList;
 @Service
 @AllArgsConstructor
 public class FlightService {
-
-
     private final FlightRepository repository;
     private final FlightViewFactory viewFactory;
     private final FlightFactory flightFactory;
