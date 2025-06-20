@@ -1,5 +1,6 @@
 package br.com.caelum.clines.api.users;
 
+import br.com.caelum.clines.shared.domain.Aircraft;
 import br.com.caelum.clines.shared.domain.User;
 import org.springframework.data.repository.Repository;
 
@@ -10,4 +11,8 @@ public interface UserRepository extends Repository<User, Long> {
     Collection<User> findAll();
 
     Optional<User> findById(Long id);
+
+    Optional<User> findByEmail(String email);
+
+    void save(User user);
 }

@@ -9,5 +9,4 @@ public class ClinesApiApplication {
     public static void main(String[] args) {
         SpringApplication.run(ClinesApiApplication.class, args);
     }
-
 }
