@@ -1,6 +1,5 @@
 package br.com.caelum.clines.api.users;
 
-import br.com.caelum.clines.shared.domain.Aircraft;
 import br.com.caelum.clines.shared.domain.User;
 import org.springframework.data.repository.Repository;
 
